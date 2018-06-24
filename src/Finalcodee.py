@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 i = 0
 tweets = list()
 #Giving the pre-processed file path to train the model
-with open("C:/Users/Pradeep/Desktop/anup.txt", 'r') as f:
+with open("C:/Users/Pradeep/Desktop/pradeep.txt", 'r') as f:
             fetched_tweets=f.read()
             blob = TextBlob(fetched_tweets)
             blob.tags
