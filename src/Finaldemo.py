@@ -16,7 +16,7 @@ class listener(StreamListener):
             
 
             print(fetched_tweets)
-            savefile=open('anup.txt','a')
+            savefile=open('pradeep.txt','a')
             savefile.write(fetched_tweets)
             savefile.write('\n')
             savefile.close()
